@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <head>
+        <title>Simple Interpreter</title>
+        <script type="text/javascript" src="token.js"></script>
+        <script type="text/javascript" src="nodes.js"></script>
+        <script type="text/javascript" src="lexer.js"></script>
+        <script type="text/javascript" src="parser.js"></script>
+        <script type="text/javascript" src="nodeVisitor.js"></script>
+        <script type="text/javascript" src="interpreter.js"></script>
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <h2>Enter an arithemetic expression</h2>
+        <form>
+            Input:
+            <input type="text" id="inputText" name="input"><br><br>
+            <input type="button" value="Submit" onclick="calculate()">
+        </form>
+        <p>
+            <strong>Result:</strong>
+            <spam id="result"></spam>
+        </p>
+    </body>
+</html>
