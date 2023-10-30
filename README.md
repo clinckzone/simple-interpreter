@@ -25,4 +25,4 @@ node server.js
 
 ### Notes
 
-You would find that the syntax style of javascript used here is quite archaic. This is because this project was written when browsers didn't used to support the mordern ECMAScript syntax. You had to write the code in plain old javascript so that the browser can understand.
+You would find that the syntax style of javascript used here is quite archaic. This is because this project was written when browsers didn't used to support the mordern ECMAScript syntax. Since we are not using a build tool like webpack but directly serving the javascript files to the client, we had to write the code in plain old javascript so that the browser can execute it.
