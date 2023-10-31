@@ -3,10 +3,9 @@ const server = express();
 let text;
 
 server.use(express.static(__dirname + "/scripts"));
-server.use(express.static(__dirname + "/views"));
 
 server.get("/", function (req, res) {
-  res.sendFile("index.html")
+  res.sendFile(__dirname + "/index.html")
 });
 
 let port = process.env.PORT;
