@@ -1,14 +1,14 @@
 {
-  "name": "simple-interpreter",
-  "version": "1.0.0",
-  "description": "Simple interpreter that interprets simple arithmetic expressions",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Divyanshu Tiwari",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+	"name": "simple-interpreter",
+	"version": "1.0.0",
+	"description": "Simple interpreter that interprets simple arithmetic expressions",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Divyanshu Tiwari",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1"
+	}
 }

@@ -1,8 +1,7 @@
 const express = require("express");
 const server = express();
-let text;
 
-server.use(express.static(__dirname + "/scripts"));
+server.use("/scripts", express.static(__dirname + "/scripts"));
 
 server.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html")
